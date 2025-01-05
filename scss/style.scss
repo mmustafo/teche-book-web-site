@@ -1,0 +1,667 @@
+@import"./utils/variables";
+@import"./utils/mixins";
+@import "./vendors/normalize";
+
+
+@import"./base/topography";
+@import "./base/resets";
+
+@import"./components/buttons";
+
+@import"./layouts/footer";
+@import"./layouts/header";
+
+@import"./utils/functions";
+
+body{
+     overflow-x: hidden;
+}
+
+
+
+
+
+
+.header__image {
+}
+
+
+
+
+
+
+.grow__arrov {
+}
+ .grow {
+          background-color: #FFFFFF;
+          .container {
+               .grow__content {
+                    display: flex;
+                    align-items: center;
+                    gap: 8rem;
+                    .grow__content__text {
+                         .grow__content__text__h2 {
+                              width: 53rem;
+                              margin-bottom: 3.4rem;
+                         }
+                         .grow__text__footer__texts {
+                              .grow__text__footer__text{
+                                   display: flex;
+                                   align-items: center;
+                                   .grow__footer__arrow__img {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 1.4rem;
+                                        .grow__footer__text__p {
+                                             width: 38.9rem;
+                                        }
+                                   }
+                                   
+                              }
+
+                         }
+                    }
+                    .grow__image {
+                         width: 50rem;
+                         border-radius: 1rem;
+                    }
+               }
+          }
+     }
+
+
+@media screen and (max-width:1200px){
+     .grow {
+           max-width: 120rem;
+           margin-top: 12rem;
+           width: 100%;
+          background-color: #FFFFFF;
+          .container {
+               .grow__content {
+                    display: flex;
+                    align-items: center;
+                    gap: 8rem;
+                    .grow__content__text {
+                         .grow__content__text__h2 {
+                              width: 53rem;
+                              margin-bottom: 3.4rem;
+                         }
+                         .grow__text__footer__texts {
+                              .grow__text__footer__text{
+                                   display: flex;
+                                   align-items: center;
+                                   .grow__footer__arrow__img {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 1.4rem;
+                                        .grow__footer__text__p {
+                                             width: 38.9rem;
+                                        }
+                                   }
+                                   
+                              }
+
+                         }
+                    }
+                    .grow__image {
+                         width: 50rem;
+                         border-radius: 1rem;
+                    }
+               }
+          }
+     }
+}
+
+@media screen and (max-width:850px){
+     .grow {
+          margin-top: 8rem;
+          max-width: 85rem;
+          width: 100%;
+          background-color: #FFFFFF;
+          .container {
+               .grow__content {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 4rem;
+                    .grow__content__text {
+                         .grow__content__text__h2 {
+                              color: $neutral-900;
+                              width: 530px;
+                              margin-bottom: 3.4rem;
+                         }
+                         .grow__text__footer__texts {
+                              .grow__text__footer__text{
+                                   display: flex;
+                                   align-items: center;
+                                   .grow__footer__arrow__img {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 1.4rem;
+                                        .grow__footer__text__p {
+                                             color: $neutral700;
+                                             width: 38.9rem;
+                                        }
+                                   }
+                                   
+                              }
+
+                         }
+                    }
+                    .grow__image {
+                         width: 50rem;
+                         border-radius: 1rem;
+                    }
+               }
+          }
+     }
+}
+
+@media screen and (max-width:350px){
+     .grow {
+          margin-top: 6.4rem;
+          max-width: 35rem;
+          width: 100%;
+          background-color: #FFFFFF;
+          .container {
+               margin-left: 16px;
+               margin-right: 16px;
+               .grow__content {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 4rem;
+                    .grow__content__text {
+                         .grow__content__text__h2 {
+                              color: $neutral-900;
+                              width: 530px;
+                              margin-bottom: 3.4rem;
+                         }
+                         .grow__text__footer__texts {
+                              .grow__text__footer__text{
+                                   display: flex;
+                                   align-items: center;
+                                   .grow__footer__arrow__img {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 1.4rem;
+                                        .grow__footer__text__p {
+                                             color: $neutral700;
+                                             width: 38.9rem;
+                                        }
+                                   }
+                                   
+                              }
+
+                         }
+                    }
+                    .grow__image {
+                         width: 50rem;
+                         border-radius: 1rem;
+                    }
+               }
+          }
+     }
+}
+
+@media screen and (max-width: 1200px){
+     .club {
+          margin-top: 12rem;
+          max-width: 1200px ;
+          width: 100%;
+          .container {
+               .club__content {
+                    display: flex;
+                    align-items: center;
+                    gap: 8rem;
+                    .club__text {
+                         position: relative;
+                         .club__text__h2 {
+                              @include typography("Martian Mono", 5rem, 1.3, -0.2rem);
+                              color: $neutral-900;
+                              max-width: 53.4rem;
+                              width: 100%;
+                         }
+                         .club__text__p {
+                              @include typography("Inter", 2rem, 1.4, -0.05rem);
+                              max-width: 53rem;
+                              width: 100%;
+                              color: $neutral700;
+                              margin-top: 2.4rem;
+                         }
+                         .club__pozitishn{
+                              position: absolute;
+                              left: 44rem;
+                              margin-top: -8rem;
+                         }
+                    }
+                    .club__img {
+                         .club__image {
+                              max-width: 56rem;
+                              border-radius: 1rem;
+                              width: 100%;
+                         
+                         }
+                    }
+               }
+          }
+     }
+    
+    
+    
+    
+     
+    
+     
+     
+}
+
+@media screen and (max-width: 850px){
+     .club {
+          max-width: 850px ;
+          width: 100%;
+          .container {
+               .club__content {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 8rem;
+                    .club__text {
+                         position: relative;
+                         .club__text__h2 {
+                              @include typography("Martian Mono", 5rem, 1.3, -0.2rem);
+                              color: $neutral-900;
+                              max-width: 53.4rem;
+                              width: 100%;
+
+
+                         }
+                         .club__text__p {
+                              @include typography("Inter", 2rem, 1.4, -0.05rem);
+                              width: 53rem;
+                              color: $neutral700;
+                              margin-top: 2.4rem;
+                         }
+                         .club__pozitishn{
+                              position: absolute;
+                              top: 78rem;
+                              left: 40rem;
+                         }
+                    }
+                    .club__img {
+                         .club__image {
+                              max-width: 56rem;
+                              border-radius: 1rem;
+                              width: 100%;
+                         
+                         }
+                    }
+               }
+          }
+     }
+    
+    
+    
+    
+     
+    
+     
+     
+}
+
+@media screen and (max-width: 1200px) {
+     .options {
+          margin-top: 12rem;
+          max-width: 1200px ;
+          width: 100%;
+          .container {
+               .options__content {
+                    .options__h2 {
+                         color: $neutral-900;
+                         @include typography("Martian Mono", 5rem, 1.3, -0.2rem);
+                         text-align: center;
+                    }
+                    .options__cards {
+                         margin-top: 6.4rem;
+                         text-align: center;
+                         display: flex;
+                         align-items: center;
+                         gap: 2.4rem;
+                         .options__card {
+                              max-width: 26.8rem;
+                              width: 100%;
+                              height: 100%;
+                              max-height: 35.8rem;
+                              border: 2px solid $neutral-200;
+                              border-radius: 1rem;
+                              .options__card__h3 {
+                                   padding: 2.4rem 8rem 2.4rem 2.4rem;
+                                   color: $neutral-900;
+                                   @include typography("Martian Mono", 2.4rem, 1.1, -0.1rem);
+                                   padding-top: 2.4rem;
+                                   padding-bottom: 2.4rem;
+                              }
+                              .card__h2__df__p {
+                                   margin-bottom: 2.4rem;
+                                   display: flex;
+                                   align-items: center;
+                                   gap: 0.8rem;
+                                   padding-left: 2.4rem;
+                                   .card__h2__22 {
+                                        @include typography("Martian Mono", 3.4rem, 1.3, -0.1rem);
+                                   }
+                                   .options__card__p__22 {
+                                        @include typography("Inter", 2rem, 1.4, -0.05rem);
+                                   }
+                              }
+                              .card__hr {
+                                   width: 23.8rem;
+                                   background-color: $neutral-200;
+                                   height: 0.1rem;
+                                   margin-bottom: 2.4rem;
+                              }
+                              .options__arrov__df__p {
+                                   margin-left: 2.4rem;
+                                   gap: 1.2rem;
+                                   display: flex;
+                                   align-items: center;
+                                   @include typography("Inter", 2rem, 1.4, -0.05rem);
+                                   margin-bottom: 1.6rem;
+                                   .options__arrov__img {
+                                   }
+                                   .options__df__p {
+                                   }
+                              }
+                              .btn {
+                              }
+                              .options__a {
+                                   margin-top: 3.2rem;
+                                   color: $neutral-900;
+                                   padding: 1.5rem 4.3rem;
+                                   border: 2px solid $neutral-900;
+                                   border-radius: 1rem;
+                                   display: inline-flex;
+                                   gap: 1.6rem;
+                                   align-items: center;
+                                   background-color: $light-salmon-50 ;
+                                   margin-bottom: 2.4rem;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+     
+    
+    
+     
+    
+     
+    
+     
+     
+  
+     
+     
+    
+     
+}
+
+
+@media screen and (max-width: 850px) {
+     .options {
+          margin-top: 8rem;
+          max-width: 850px ;
+          width: 100%;
+          .container {
+               .options__content {
+                    .options__h2 {
+                         margin-bottom: 4.4rem;
+                         color: $neutral-900;
+                         @include typography("Martian Mono", 5rem, 1.3, -0.2rem);
+                         text-align: center;
+                    }
+                    .options__cards {
+                         margin-top: 6.4rem;
+                         text-align: center;
+                         display: flex;
+                         align-items: center;
+                         gap: 2.4rem;
+                         flex-wrap: wrap;
+                         .options__card {
+                              max-width: 26.8rem;
+                              width: 100%;
+                              height: 100%;
+                              max-height: 35.8rem;
+                              border: 2px solid $neutral-200;
+                              border-radius: 1rem;
+                              .options__card__h3 {
+                                   padding: 2.4rem 8rem 2.4rem 2.4rem;
+                                   color: $neutral-900;
+                                   @include typography("Martian Mono", 2.4rem, 1.1, -0.1rem);
+                                   padding-top: 2.4rem;
+                                   padding-bottom: 2.4rem;
+                              }
+                              .card__h2__df__p {
+                                   margin-bottom: 2.4rem;
+                                   display: flex;
+                                   align-items: center;
+                                   gap: 0.8rem;
+                                   padding-left: 2.4rem;
+                                   .card__h2__22 {
+                                        @include typography("Martian Mono", 3.4rem, 1.3, -0.1rem);
+                                   }
+                                   .options__card__p__22 {
+                                        @include typography("Inter", 2rem, 1.4, -0.05rem);
+                                   }
+                              }
+                              .card__hr {
+                                   width: 23.8rem;
+                                   background-color: $neutral-200;
+                                   height: 0.1rem;
+                                   margin-bottom: 2.4rem;
+                              }
+                              .options__arrov__df__p {
+                                   margin-left: 2.4rem;
+                                   gap: 1.2rem;
+                                   display: flex;
+                                   align-items: center;
+                                   @include typography("Inter", 2rem, 1.4, -0.05rem);
+                                   margin-bottom: 1.6rem;
+                                   .options__arrov__img {
+                                   }
+                                   .options__df__p {
+                                   }
+                              }
+                              .btn {
+                              }
+                              .options__a {
+                                   margin-top: 3.2rem;
+                                   color: $neutral-900;
+                                   padding: 1.5rem 4.3rem;
+                                   border: 2px solid $neutral-900;
+                                   border-radius: 1rem;
+                                   display: inline-flex;
+                                   gap: 1.6rem;
+                                   align-items: center;
+                                   background-color: $light-salmon-50 ;
+                                   margin-bottom: 2.4rem;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+     
+    
+    
+     
+    
+     
+    
+     
+     
+  
+     
+     
+    
+     
+}
+
+@media screen and (max-width: 350px) {
+     .options {
+          margin-top: 4.2rem;
+          max-width: 350px ;
+          width: 100%;
+          .container {
+               .options__content {
+                    .options__h2 {
+                         color: $neutral-900;
+                         @include typography("Martian Mono", 5rem, 1.3, -0.2rem);
+                         text-align: center;
+                         max-width: 343px;
+                         width: 100%;
+                    }
+                    .options__cards {
+                         margin-top: 6.4rem;
+                         text-align: center;
+                         display: flex;
+                         align-items: center;
+                         gap: 2.4rem;
+                         .options__card {
+                              max-width: 26.8rem;
+                              width: 100%;
+                              height: 100%;
+                              max-height: 35.8rem;
+                              border: 2px solid $neutral-200;
+                              border-radius: 1rem;
+                              .options__card__h3 {
+                                   padding: 2.4rem 8rem 2.4rem 2.4rem;
+                                   color: $neutral-900;
+                                   @include typography("Martian Mono", 2.4rem, 1.1, -0.1rem);
+                                   padding-top: 2.4rem;
+                                   padding-bottom: 2.4rem;
+                              }
+                              .card__h2__df__p {
+                                   margin-bottom: 2.4rem;
+                                   display: flex;
+                                   align-items: center;
+                                   gap: 0.8rem;
+                                   padding-left: 2.4rem;
+                                   .card__h2__22 {
+                                        @include typography("Martian Mono", 3.4rem, 1.3, -0.1rem);
+                                   }
+                                   .options__card__p__22 {
+                                        @include typography("Inter", 2rem, 1.4, -0.05rem);
+                                   }
+                              }
+                              .card__hr {
+                                   width: 23.8rem;
+                                   background-color: $neutral-200;
+                                   height: 0.1rem;
+                                   margin-bottom: 2.4rem;
+                              }
+                              .options__arrov__df__p {
+                                   margin-left: 2.4rem;
+                                   gap: 1.2rem;
+                                   display: flex;
+                                   align-items: center;
+                                   @include typography("Inter", 2rem, 1.4, -0.05rem);
+                                   margin-bottom: 1.6rem;
+                                   .options__arrov__img {
+                                   }
+                                   .options__df__p {
+                                   }
+                              }
+                              .btn {
+                              }
+                              .options__a {
+                                   margin-top: 3.2rem;
+                                   color: $neutral-900;
+                                   padding: 1.5rem 4.3rem;
+                                   border: 2px solid $neutral-900;
+                                   border-radius: 1rem;
+                                   display: inline-flex;
+                                   gap: 1.6rem;
+                                   align-items: center;
+                                   background-color: $light-salmon-50 ;
+                                   margin-bottom: 2.4rem;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+     .are {
+          max-width: 1200px;
+          width: 100%;
+          margin-top: 12rem;
+          .container {
+               .are__content {
+                    .are__content__stars {
+                         display: flex;
+                         align-items: center;
+                         justify-content: center;
+                         margin-bottom: 3.2rem;
+                         .are__content__star {
+                         }
+                    }
+                    .are__content__text {
+                         margin: 0 auto;
+                         .are__content__text__h2 {
+                              max-width: 907px;
+                              width: 100%;
+                              @include typography("Martian Mono", 3.4rem, 1.3, -0.2rem);
+                              color: $neutral-900;
+                              text-align: center;
+
+                         }
+                         .are__content__text___p {
+                              text-align: center;
+                              margin-top: 3.2rem;
+                              @include typography("Inter", 2rem, 1.4, -0.05rem);
+                              color: $neutral700;
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@media screen and (max-width: 850px) {
+     .are {
+          max-width: 850px;
+          width: 100%;
+          margin-top: 8rem;
+          .container {
+               .are__content {
+                    .are__content__stars {
+                         display: flex;
+                         align-items: center;
+                         justify-content: start;
+                         margin-bottom: 3.2rem;
+                         .are__content__star {
+                         }
+                    }
+                    .are__content__text {
+                         .are__content__text__h2 {
+                              max-width: 907px;
+                              width: 100%;
+                              @include typography("Martian Mono", 3.4rem, 1.3, -0.2rem);
+                              color: $neutral-900;
+                              text-align: start;
+
+                         }
+                         .are__content__text___p {
+                              text-align: start;
+                              margin-top: 3.2rem;
+                              @include typography("Inter", 2rem, 1.4, -0.05rem);
+                              color: $neutral700;
+                         }
+                    }
+               }
+          }
+     }
+}

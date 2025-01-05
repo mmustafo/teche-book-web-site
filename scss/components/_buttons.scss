@@ -1,0 +1,16 @@
+.bnt{
+          color: $neutral-900;
+          padding: 2rem 2.4rem;
+          border: 2px solid $neutral-900;
+          border-radius: 1rem;
+          display: inline-flex;
+          gap: 1.6rem;
+          align-items: center;
+          background-color: $light-salmon-50 ;
+
+}
+
+.btn:hover{
+     background-color: brown;
+
+}
