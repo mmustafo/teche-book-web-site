@@ -27,6 +27,7 @@
 
 @media screen and (max-width:1200px){
      .header{
+          margin-bottom: 12rem;
      .container{
           .nav__logo {
                margin-top: 3.5rem;
@@ -47,6 +48,10 @@
                          );
                          -webkit-background-clip: text;
                          -webkit-text-fill-color: transparent;
+                    }
+                    .header__a:hover{
+                         background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+                         ;
                     }
                     .header__text__p {
                          width: 57rem;

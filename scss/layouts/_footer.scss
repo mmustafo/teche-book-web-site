@@ -1,5 +1,6 @@
 @media screen and (max-width: 1200px) {
      .footer {
+          margin-top: 12rem;
           background-color: $neutral-900;
           .ready {
                .container {
@@ -26,6 +27,11 @@
                                    align-items: center;
                                    background-color: transparent ;
                                    @include typography("Martian Mono", 1.8rem, 1.3, -0.1rem);
+                                  
+
+                              }
+                              .ready__text__a:hover{
+                                   background: linear-gradient(90deg, #385159 0%, #062630 100%);
 
                               }
                               .ready__img__text__df {
@@ -84,6 +90,7 @@
 
 @media screen and (max-width: 350px) {
      .footer {
+          margin-top: 3.4rem;
           max-width: 350px;
           width: 100%;
           background-color: $neutral-900;
@@ -112,6 +119,10 @@
                                    align-items: center;
                                    background-color: transparent ;
                                    @include typography("Martian Mono", 1.8rem, 1.3, -0.1rem);
+
+                              }
+                              .ready__text__a:hover{
+                                   background: linear-gradient(90deg, #385159 0%, #062630 100%);
 
                               }
                               .ready__img__text__df {
